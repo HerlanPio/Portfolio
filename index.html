@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chellappa Herlan PIo | Full Stack Developer</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav id="navbar">
+        <div class="logo">HP<span class="dot">.</span></div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="hamburger">
+            <i class="fas fa-bars"></i>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header id="home" class="hero">
+        <div class="hero-content">
+            <p class="greeting">Hello, I'm</p>
+            <h1 class="name">Chellappa Herlan Pio</h1>
+            <h2 class="role">I build <span class="typing-text"></span></h2>
+            <p class="bio">A Full stack Developer specializing in building exceptional digital experiences. Currently focused on accessible, human-centered products.</p>
+            <a href="#projects" class="btn primary-btn">View Work</a>
+        </div>
+        <div class="scroll-indicator">
+            <div class="mouse"></div>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="about" class="hidden">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-grid">
+                <div class="about-text">
+                    <p>I am a developer who bridges the gap between design and engineering. I don't just write code; I solve problems. With a background in computer science and a passion for web developments, I create scalable applications that feel good to use.</p>
+                    
+                    <div class="skills-wrapper">
+                        <h3>Full Stack</h3>
+                        <ul class="skills-list">
+                            <li>HTML</li>
+                            <li>React / Node.js</li>
+                            <li>JavaScript</li>
+                            <li>Java</li>
+                            <li>CSS</li>
+                            <li>SpringBoot</li>
+                            <li>MySql</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="about-visual">
+                    <div class="code-card">
+                        <div class="card-header">
+                            <span class="dot red"></span>
+                            <span class="dot yellow"></span>
+                            <span class="dot green"></span>
+                        </div>
+                        <div class="card-body">
+                            <code>
+                                <span class="keyword">const</span> developer = {<br>
+                                &nbsp;&nbsp;name: <span class="string">'Herlan'</span>,<br>
+                                &nbsp;&nbsp;passion: <span class="string">'Innovation'</span>,<br>
+                                &nbsp;&nbsp;hardWorker: <span class="boolean">true</span><br>
+                                };
+                            </code>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="hidden">
+        <div class="container">
+            <h2 class="section-title">Featured Projects</h2>
+            <div class="projects-grid">
+                <!-- Project 1 -->
+                <article class="project-card">
+                    <div class="project-image">
+                        <!-- Placeholder for project image -->
+                        <div class="img-placeholder"></div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Smart Project Manangement Dashboard</h3>
+                        <p>A full-stack analytics dashboard featuring real-time data visualization and inventory management.</p>
+                        <ul class="tech-tags">
+                            <li>React / Node.js</li>
+                            <li>JavaScript</li>
+                            <li>CSS</li>
+                            <li>HTML</li>
+                        </ul>
+                        <div class="project-links">
+                            <a href="https://github.com/HerlanPio/smart-pm-dashboard.git" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i> Code</a>
+                            <a href="smart-pm-dashboard.netlify.app" target="_blank" rel="noopener noreferrer"><i class="fas fa-external-link-alt"></i> Live</a>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="hidden">
+        <div class="container contact-container">
+            <h2 class="section-title">Get In Touch</h2>
+            <p>I'm currently looking for new opportunities. Whether you have a question or just want to say hi, my inbox is always open.</p>
+            <a href="mailto:herlansworkspace@gmail.com" class="btn primary-btn big-btn">Say Hello</a>
+            
+            <div class="socials">
+                <a href="https://github.com/HerlanPio" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i></a>
+                <a href="http://www.linkedin.com/in/chellappa-herlan-pio-08197a291" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>Designed & Built by Herlan Pio &copy; 2024</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
