@@ -55,16 +55,21 @@ Font Awesome Icons
 📂 Project Structure
 
 portfolio-website/
+
 │
+
 ├── index.html      # Main HTML file
+
 ├── style.css       # Styling and responsive design
+
 ├── script.js       # Interactive JavaScript features
+
 └── README.md       # Project documentation
 
 ⚙️ Installation & Usage
 
 1️⃣ Clone the Repository
-git clone https://github.com/your-username/your-repo-name.git
+git clone https://github.com/HerlanPio/Portfolio.git
 
 2️⃣ Navigate into Project Folder
 cd your-repo-name
