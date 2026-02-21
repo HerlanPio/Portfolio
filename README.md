@@ -129,7 +129,9 @@ Add dark/light theme toggle
 👨‍💻 Author
 
 Chellappa Herlan Pio
+
 B.Sc Computer Science Graduate
+
 Java Full Stack Developer
 
 🔗 GitHub: https://github.com/HerlanPio
