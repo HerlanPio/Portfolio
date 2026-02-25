@@ -6,7 +6,7 @@ This website showcases my work, skills, and contact information in a clean, inte
 
 🚀 Live Demo
 
-🔗 Live Site: https://herlan-portfolio.netlify.app
+🔗 Live Site: https://herlan-portfolio.netlify.app/
 
 📌 Project Overview
 
